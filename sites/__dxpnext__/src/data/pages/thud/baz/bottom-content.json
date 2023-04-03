@@ -1,0 +1,39 @@
+{
+  "items": [
+    {
+      "uuid": "3fb14982-72b2-41e4-89f1-b18d48ab8756",
+      "wrapperProps": {
+        "className": "w-full"
+      },
+      "type": "ProductPrimaryButtonAll"
+    },
+    {
+      "uuid": "ceed09d4-8cae-43b3-ac9c-fa5f13d57791",
+      "wrapperProps": {
+        "className": "w-full"
+      },
+      "type": "ListPlainPlainText"
+    },
+    {
+      "uuid": "3d2ab056-4b6a-4226-b4d7-aaf6b808f088",
+      "wrapperProps": {
+        "className": "w-full"
+      },
+      "type": "ListPlainRichText"
+    },
+    {
+      "uuid": "dcd49631-7949-49e1-bebc-de329a3239b0",
+      "wrapperProps": {
+        "className": "w-full"
+      },
+      "type": "ListBulletedPlainText"
+    },
+    {
+      "uuid": "308846d5-988d-481c-bf7e-50f00b3f8287",
+      "wrapperProps": {
+        "className": "w-full"
+      },
+      "type": "ProductFullyClickableNoEyebrow"
+    }
+  ]
+}

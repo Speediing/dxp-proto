@@ -1,0 +1,25 @@
+{
+  "items": [
+    {
+      "uuid": "2c2a4b49-c267-45e8-bb5a-87c19890e83b",
+      "wrapperProps": {
+        "className": "w-full"
+      },
+      "type": "HeroPrimaryButtonRightContentTop"
+    },
+    {
+      "uuid": "d25f6abb-b57e-4214-9fe1-92d0b6ca229e",
+      "wrapperProps": {
+        "className": "w-full"
+      },
+      "type": "ListInfographic"
+    },
+    {
+      "uuid": "d13f98bf-1b70-4198-97df-5da42f7dedad",
+      "wrapperProps": {
+        "className": "w-full"
+      },
+      "type": "CardRightContentTopNoEyebrow"
+    }
+  ]
+}

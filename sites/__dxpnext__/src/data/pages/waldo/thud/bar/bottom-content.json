@@ -1,0 +1,25 @@
+{
+  "items": [
+    {
+      "uuid": "276d3036-a9ac-4dca-9b69-49583dcec6e5",
+      "wrapperProps": {
+        "className": "w-full"
+      },
+      "type": "ListNumberedRichText"
+    },
+    {
+      "uuid": "555218de-7ae5-4a6f-a4a8-3f820a3c4ed0",
+      "wrapperProps": {
+        "className": "w-full"
+      },
+      "type": "CardRightContentTopAll"
+    },
+    {
+      "uuid": "b2bbd6e7-3bed-496a-8aa2-485623e4a032",
+      "wrapperProps": {
+        "className": "w-full"
+      },
+      "type": "ListInfographic"
+    }
+  ]
+}

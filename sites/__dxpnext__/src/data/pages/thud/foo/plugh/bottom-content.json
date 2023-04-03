@@ -1,0 +1,18 @@
+{
+  "items": [
+    {
+      "uuid": "00dde6e0-6a23-43f5-a9fc-c9141049a9c8",
+      "wrapperProps": {
+        "className": "w-full"
+      },
+      "type": "ProductLinkNoDescription"
+    },
+    {
+      "uuid": "3c08caf8-c2a6-4a81-b518-9cbaeb9c9ae7",
+      "wrapperProps": {
+        "className": "w-full"
+      },
+      "type": "ListInfographic"
+    }
+  ]
+}

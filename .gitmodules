@@ -1,0 +1,3 @@
+[submodule "tests/e2e/vividus-build-system"]
+	path = tests/e2e/vividus-build-system
+	url = https://github.com/vividus-framework/vividus-build-system.git

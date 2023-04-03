@@ -1,0 +1,25 @@
+{
+  "items": [
+    {
+      "uuid": "152a8e3a-6879-4d7c-8bb3-20b718fcf9fd",
+      "wrapperProps": {
+        "className": "w-full"
+      },
+      "type": "CardRightContentCenteredNoEyebrow"
+    },
+    {
+      "uuid": "d5151eb4-0931-4182-9e09-a4aaf747e5fb",
+      "wrapperProps": {
+        "className": "w-full"
+      },
+      "type": "HeroLinkRightContentCentered"
+    },
+    {
+      "uuid": "d4c440a2-f91f-415a-9067-e5e97f9c0339",
+      "wrapperProps": {
+        "className": "w-full"
+      },
+      "type": "ProductLinkNoEyebrow"
+    }
+  ]
+}

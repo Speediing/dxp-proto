@@ -1,0 +1,32 @@
+name: E2E Tests
+
+on:
+  deployment_status:
+
+jobs:
+  tests:
+    if: ${{ github.event.deployment_status.state == 'success' }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout (including submodules)
+        uses: actions/checkout@v3
+        with:
+          submodules: recursive
+      - name: Set up JDK
+        uses: actions/setup-java@v3
+        with:
+          distribution: 'temurin'
+          java-version: 17
+          cache: 'gradle'
+      - name: Run tests
+        env:
+          MAIN_PAGE_URL: ${{ github.event.deployment_status.target_url }}
+        run: |
+          cd tests/e2e
+          ./gradlew runStories -Pvividus.web-application.main-page-url=${MAIN_PAGE_URL}
+      - name: Publish web application tests report
+        if: always()
+        uses: actions/upload-artifact@v3
+        with:
+          name: Tests report
+          path: tests/e2e/output/reports/allure

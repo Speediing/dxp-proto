@@ -1,0 +1,23 @@
+{
+    "$schema": "https://turbo.build/schema.json",
+    "pipeline": {
+      "build": {
+        "outputs": ["public/**", "lib/**", ".env.production", ".env.development"],
+        "dependsOn": ["^build"]
+      },
+      "build-next": {
+        "outputs": [".next/**", "lib/**", ".env.production", ".env.development"],
+        "dependsOn": ["^build"],
+        "inputs": ["src/**/*.tsx", "src/**/*.ts", ".env.site"]
+      },
+      "build-content": {
+        "outputs": ["src/pages/generated/**", "public/staticProps/**"],
+        "dependsOn": ["^build-next"],
+        "inputs": ["src/data/**/*.json", "generatePages.js"]
+      },
+      "check": {},
+      "dev": {
+        "persistent": true
+      }
+    }
+  }

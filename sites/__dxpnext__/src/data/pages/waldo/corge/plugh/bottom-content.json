@@ -1,0 +1,25 @@
+{
+  "items": [
+    {
+      "uuid": "5bdaa8d3-393e-41d8-89ab-8b1f54d5b40a",
+      "wrapperProps": {
+        "className": "w-full"
+      },
+      "type": "ListBulletedRichText"
+    },
+    {
+      "uuid": "fa5cec9f-54d8-40c5-9b40-6ed1d5732b63",
+      "wrapperProps": {
+        "className": "w-full"
+      },
+      "type": "ListNumberedPlainText"
+    },
+    {
+      "uuid": "e0d61886-0d65-4a22-88fb-2aba49ed4c4b",
+      "wrapperProps": {
+        "className": "w-full"
+      },
+      "type": "ListPlainRichText"
+    }
+  ]
+}

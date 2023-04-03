@@ -1,0 +1,39 @@
+{
+  "items": [
+    {
+      "uuid": "d139b73b-ca1d-44cd-bbd2-5fad8610998d",
+      "wrapperProps": {
+        "className": "w-full"
+      },
+      "type": "ProductPrimaryButtonNoEyebrow"
+    },
+    {
+      "uuid": "a56f55c3-d7d2-44c2-b3c4-3943cf8af58a",
+      "wrapperProps": {
+        "className": "w-full"
+      },
+      "type": "ProductLinkNoDescription"
+    },
+    {
+      "uuid": "5225a475-85af-4929-8e88-8d85af2f93bc",
+      "wrapperProps": {
+        "className": "w-full"
+      },
+      "type": "HeroSecondaryButtonRightContentTop"
+    },
+    {
+      "uuid": "92d0acc2-1adf-44c4-8997-042af7f0be3e",
+      "wrapperProps": {
+        "className": "w-full"
+      },
+      "type": "ProductPrimaryButtonNoDescription"
+    },
+    {
+      "uuid": "4d0c2337-81b7-4748-8fd2-4b217570957c",
+      "wrapperProps": {
+        "className": "w-full"
+      },
+      "type": "ListInfographic"
+    }
+  ]
+}
